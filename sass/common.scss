@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+.stylized-line {
+    width: 40px;
+    height: 10px;
+    background-color: $cyan;
+}
+
+.short-btn {
+    width: 90px;
+    height: 40px;
+    color: #fff;
+    background-color: $cyan;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: hsl(182, 86%, 32%);
+        color: #fff;
+    }
+}
+
+.big-btn {
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: $cyan;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: hsl(182, 86%, 32%);
+        color: #fff;
+    }
+}
+
+
+.big-square-btn {
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background-color: $cyan;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: hsl(182, 86%, 32%);
+        color: #fff;
+    }
+}
+
+.short-square-btn {
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    background-color: $cyan;
+    border-radius: 8px;
+    border: none;
+
+    &:hover {
+        background-color: hsl(182, 86%, 32%);
+    }
+}
+
+.success {
+    background-color: $dark-violet;
+}
+
+.link-to-remove {
+    display: none;
+    color: $Very-dark-violet;
+    cursor: pointer;
+}
+
+
+// media 
+
+@media (max-width: 991px) {
+    .big-square-btn {
+        width: 120px;
+    }
+}
+
+@media (max-width: 850px) {
+    .stylized-line {
+        width: 12px;
+        height: 103px;
+        background-color: $cyan;
+    }
+}
+
+@media (max-width: 549px) {
+    .big-square-btn {
+        width: 90%;
+        margin-left: 40%;
+    }
+}
+
+@media (max-width: 409px) {
+    .big-square-btn {
+        width: 280px;
+    }
+}

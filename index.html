@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./src/assets/favicon-32x32.png" type="image/x-icon">
+    <title>Shortly</title>
+</head>
+
+<body>
+
+    <section class="navbarEHeader">
+        <header class="container header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./src/assets/logo.svg" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto text-end mb-2 mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <button class="btn short-btn">Sign Up</button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container-fluid container01">
+            <div class="titlePage">
+                <h1 class="principalTitle">More than just<br>shorter links</h1>
+                <p>Build your brand's recognition and get detailed<br>insights on how your links are performing.</p>
+                <button class="btn big-btn">Get Started</button>
+            </div>
+            <div class="firstContainerImg">
+                <img src="./src/assets/illustration-working.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid container02">
+
+        <div class="container container03">
+            <div class="input-group mb-3 input-content">
+                <form>
+                    <input type="text" class="input-url" id="inputUrl" placeholder="Shorten a link here!">
+                    <button class="btn big-square-btn m-2" type="button" id="button-url">Shorten it!</button>
+                    <span id="errorText"></span>
+                </form>
+            </div>
+        </div>
+
+        <div class="container url-elements text-center" id="url-links">
+
+        </div>
+
+        <div class="container text-center" id="clearHistory">
+            <a class="link-to-remove">Clear history</a>
+        </div>
+
+        <div class="container advanced-statistic">
+            <p class="h1 title-page text-center">Advanced Statistic</p>
+            <p class="sub-title text-center mt-3">
+                    Track how your links are performing across the web with<br>our advanced statistics dashboard.
+            </p>
+        </div>
+        <div class="container advanced-boxes">
+            <div class="card card01">
+                <div class="circle-img">
+                    <img src="./src/assets/icon-brand-recognition.svg" class="card-img-top" alt="icon-brand-recognition">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Brand Recognition</h5>
+                    <p class="card-text">Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
+                </div>
+            </div>
+            <span class="stylized-line line01"></span>
+            <div class="card card02">
+                <div class="circle-img">
+                    <img src="./src/assets/icon-detailed-records.svg" class="card-img-top" alt="icon-detailed-records">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Detailed Records</h5>
+                    <p class="card-text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+                </div>
+            </div>
+            <span class="stylized-line line01"></span>
+            <div class="card card03">
+                <div class="circle-img">
+                    <img src="./src/assets/icon-fully-customizable.svg" class="card-img-top" alt="icon-fully-customizable">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Fully Customizable</h5>
+                    <p class="card-text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid container04">
+        <div class="container get-started text-center">
+            <p class="h3">Boost your links today</p>
+            <button class="btn big-btn">Get Started</button>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+        <div class="container fooNavs">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 text-decoration-none foo-img">
+                  <img src="./src/assets/logo.svg" alt="logo">
+                </a>
+              </div>
+          
+              <div class="col mb-3">
+                <h5 class="mb-3">Features</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Link Shortening</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Branded Links</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Analytics</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5 class="mb-3">Resources</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Blog</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Developers</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Support</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5 class="mb-3">Company</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Our Team</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Careers</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="navbar-medias">
+                <ul>
+                    <li class="nav-item mb-2"><a href="#"><img src="./src/assets/icon-facebook.svg" alt="icon-facebook"></a></li>
+                    <li class="nav-item mb-2"><a href="#"><img src="./src/assets/icon-twitter.svg" alt="icon-twitter"></a></li>
+                    <li class="nav-item mb-2"><a href="#"><img src="./src/assets/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+                    <li class="nav-item mb-2"><a href="#"><img src="./src/assets/icon-instagram.svg" alt="icon-instagram"></a></li>
+                </ul>
+              </div>
+            </footer>
+        </div>
+    </footer>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./src/entities/Main.js"></script>
+</body>
+
+</html>
